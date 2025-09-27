@@ -1,1 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+   background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/summer-background-abstract-background-wallpaper-use-for-presentation_HDDYoJOhMg_thumb.jpg);
+   background-position: center;
+   background-size: cover;
+    color: white
+    
+}
+main{
+ display: flex;
+ flex-direction: row;
+ flex: auto;
+ padding: 10px;
+ font-size: 20px;
+}
 
+header{
+    text-align: center; 
+    background: rgba(156, 42, 42, 0.747);
+    color: white;
+}
+
+
+
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    color: #777;
+}
+
+#contact{
+    background-color: rgb(88, 88, 95);
+    color: #fffefe;
+}
